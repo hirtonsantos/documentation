@@ -20,6 +20,20 @@ const sidebars = {
   
   tutorialSidebar: [
     { id: "intro", label: "Início", type: "doc" },
+    {
+      "Token de Acesso": [
+        {
+          id: "token-acess/token-integration",
+          label: "Token de integração",
+          type: "doc",
+        },
+        {
+          id: "token-acess/token-auth",
+          label: "Token de autenticação",
+          type: "doc",
+        },
+      ],
+    }
     /*
     Teste: {
       type: 'category',
